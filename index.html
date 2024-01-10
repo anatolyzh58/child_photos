@@ -9,6 +9,8 @@
     <title>Детские фотографии</title>
 </head>
 <script type="text/javascript">
+    var NewYer = new Array("n01-min.jpg", "n02-min.jpg");
+    var NewYear = new Array("n03-min.jpg", "n04-min.jpg","n05-min.jpg", "n06-min.jpg","n07-min.jpg", "n08-min.jpg", "n09-min.jpg");
     var locations = new Array("g01.jpg", "g02.jpg");
     var locaut = new Array("v001.jpg", "v002.jpg", "v003.jpg", "v004.jpg","v005.jpg");
     var locauts = new Array("k001.jpg", "k002.jpg", "k003.jpg", "k004.jpg", "k005.jpg", "k006.jpg", "k007.jpg", "k008.jpg", "k009.jpg", "k010.jpg", "k011.jpg","k012.jpg");
@@ -35,7 +37,30 @@
 <body>
     <div class="container">
         <h1> Образцы детский фотографий</h1>
-        <div class="obshie">
+            <div class="obshie">
+                <h3>Новогодний календарь
+                    <br>
+                    Cтоимость календаря 350 руб, размер
+                    А4 (21х30) см, по умолчанию фотографии ламинируются.
+                </h3>
+            </div>
+            <img src="n01-min.jpg" name="picture4" width="1528">
+            <br />
+            <div class="center">        <input type="button" id="button4" onclick="return nextImage(NewYer, 'picture4', 'button4')"
+                data-current-index="0" value="Следующее фото" /></div>
+
+            <hr align="middle" size="5" color="red" width="100%">
+                <div class="obshie">
+                    <h3>Новогодние коллажи печатаются в размерах:</h3>
+                    <h4> 10х15 250 руб 15х20 300 руб 21х30 400руб за одно фото</h4>
+                </div>
+                <img src="n03-min.jpg" name="picture5" width="1528">
+                <br />
+                <div class="center">        <input type="button" id="button5" onclick="return nextImage(NewYear, 'picture5', 'button5')"
+                    data-current-index="0" value="Следующее фото" /></div>
+
+                <hr align="middle" size="5" color="red" width="100%">
+                <div class="obshie">
             <h3>Групповые фотографии одним снимком
                 <br>
                 Cтоимость таких групповых фотографий 330 руб, размер
